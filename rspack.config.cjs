@@ -47,8 +47,8 @@ module.exports = {
 					options: {
 						presets: [
 							// this should not be needed. since *rspack* support *tsx* out of the box.
-							'@babel/preset-typescript',
-							'solid',
+							//['@babel/preset-typescript'],
+							['solid'],
 						],
 					},
 				},

@@ -1,3 +1,8 @@
+import { Component } from 'solid-js';
 import { render } from 'solid-js/web';
 
-render(() => <h1>Hello World!</h1>, document.body);
+const App: Component = () => {
+	return <h1>Hello World!</h1>;
+};
+
+render(() => <App />, document.body);
