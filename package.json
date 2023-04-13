@@ -1,0 +1,19 @@
+{
+  "name": "spa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.21.4",
+    "@rspack/cli": "^0.1.7",
+    "babel-loader": "^9.1.2",
+    "babel-preset-solid": "^1.7.3"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.3"
+  }
+}
